@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1841b7fe398674bcda282482872188a9, type: 3}
+  m_Name: TutorialEventChannels_Data
+  m_EditorClassIdentifier: 
+  m_Description: Content data for the Event channels tutorial screen.
+  m_Title: Event channels
+  m_BodyText:
+  - "ScriptableObject-based events can help your GameObjects communicate. These \"event
+    channels\" act as intermediaries between the broadcasting objects and their listeners.\n\nClick
+    the <b>Raise Event</b>  button to raise the event. \n\nOnly subscribed listeners
+    show the effect. This button can help debug gameplay logic at runtime."
+  - "This pattern decouples the <b>Broadcaster</b> from the <b>Listeners</b>. Changes
+    to either set of GameObjects does not affect the other. \n\nThe <b>Broadcaster</b>
+    raises the event on the event channel and is unaware of any objects that are
+    listening.\n"
+  - "For debugging, the event channel uses the <b> Delegate.GetInvocationList</b>
+    method to display a list of active listeners.  \n\nSelect each listening object
+    from the ListView to locate it in the Hierarchy.\n\nNote that any object can
+    function as a Broadcaster or Listener depending on context."
+  m_Prefabs:
+  - {fileID: 8911899710966543717, guid: 0dc4831b29c174ccf8c18e8e2b6581c4, type: 3}

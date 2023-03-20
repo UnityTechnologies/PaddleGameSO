@@ -1,0 +1,30 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/PaddleBall/UI/Uss/PaddleBallScreens.uss?fileID=7433441132597879392&amp;guid=5f1fa7b4fc1384e90a776788b57e71c1&amp;type=3#PaddleBallScreens" />
+    <ui:VisualElement name="tutorial__parent" style="width: 100%; height: 100%; flex-direction: row; align-items: center; background-color: rgba(0, 0, 0, 0);">
+        <ui:VisualElement name="tutorial__background" style="width: 100%; height: 100%; position: absolute; background-color: rgba(58, 58, 58, 0); top: -2px; left: 0;" />
+        <ui:VisualElement name="instructions__container" style="flex-basis: 45%; color: rgb(255, 255, 255); margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 26px; padding-right: 26px; padding-top: 26px; padding-bottom: 26px; background-color: rgba(5, 5, 5, 0); align-items: stretch; height: 90%;">
+            <ui:VisualElement name="instructions__header" style="flex-basis: 15%; align-items: center; justify-content: center;">
+                <ui:Label text="Title" display-tooltip-when-elided="true" name="tutorial__title" style="flex-basis: 100%; -unity-font-definition: url(&apos;project://database/Assets/_ThirdParty/Fonts/Roboto/Roboto-Black%20SDF_FontAsset.asset?fileID=11400000&amp;guid=e74ebc05ab3564fb187648ced4e2c0fa&amp;type=2#Roboto-Black SDF_FontAsset&apos;); font-size: 102px; color: rgb(255, 255, 255);" />
+            </ui:VisualElement>
+            <ui:VisualElement name="instructions__body" style="flex-basis: 60%; flex-grow: 1; flex-shrink: 0; padding-bottom: 5%;">
+                <ui:Label display-tooltip-when-elided="true" name="tutorial__page-text" class="body-text" style="position: absolute; font-size: 32px; top: 0; left: 0; flex-shrink: 1;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="instructions__footer" style="flex-basis: 15%; align-items: stretch; justify-content: center; margin-left: 0; margin-top: 1%;">
+                <ui:VisualElement name="tutorial__button-panel" style="flex-direction: row; justify-content: center; position: absolute; width: 100%; top: 0; height: 100%; align-items: center;">
+                    <ui:Button display-tooltip-when-elided="true" name="tutorial__button-last" enable-rich-text="true" text="&#10;" class="button-nextlast" style="left: 0; position: absolute; width: 10%; height: 80%;" />
+                    <ui:Button text="Select" display-tooltip-when-elided="true" name="tutorial__select-button" class="tutorial-button" style="position: relative; margin-right: 10px;" />
+                    <ui:Button text="Update" display-tooltip-when-elided="true" name="tutorial__update-button" class="tutorial-button" style="padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; margin-left: 10px; margin-right: 0; margin-top: 0; margin-bottom: 0; position: relative;" />
+                    <ui:Button display-tooltip-when-elided="true" name="tutorial__button-next" class="button-nextlast" style="rotate: 0; display: flex; position: absolute; flex-basis: auto; width: 10%; height: 80%; left: 90%;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement picking-mode="Ignore" name="credits__container" style="flex-basis: 45%; height: 80%; align-items: center; border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); border-left-width: 2px; border-right-width: 2px; border-top-width: 2px; border-bottom-width: 2px; border-top-left-radius: 24px; border-bottom-left-radius: 24px; border-top-right-radius: 24px; border-bottom-right-radius: 24px; top: -5%; left: 5%;">
+            <ui:VisualElement name="credits__header" style="flex-basis: 25%; align-items: center; justify-content: center; width: 90%; top: 8%;">
+                <ui:Label text="Title" display-tooltip-when-elided="true" name="credits__title" style="flex-basis: 39%; width: 100%; -unity-font-definition: url(&apos;project://database/Assets/_ThirdParty/Fonts/Inter/Inter-Bold/Inter-Bold%20SDF_FontAsset.asset?fileID=11400000&amp;guid=95b70fa7ea03d427e8c7511cab180b86&amp;type=2#Inter-Bold SDF_FontAsset&apos;); font-size: 64px; -unity-text-align: upper-center; color: rgb(255, 255, 255); flex-wrap: wrap;" />
+                <ui:Label text="Subheading" display-tooltip-when-elided="true" name="credits__subheading" enable-rich-text="false" style="flex-basis: 55%; -unity-text-align: upper-center; -unity-font-definition: url(&apos;project://database/Assets/_ThirdParty/Fonts/Inter/Inter-Medium/Inter-Medium%20SDF_FontAsset.asset?fileID=11400000&amp;guid=3a7d7cc90e43f44478bfccf76c97073e&amp;type=2#Inter-Medium SDF_FontAsset&apos;); font-size: 26px; color: rgb(255, 255, 255); align-items: center; flex-wrap: wrap; white-space: normal; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; width: 100%;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="credits__body" style="flex-grow: 1; align-items: center; flex-basis: 50%; width: 90%; margin-top: 5%;" />
+        </ui:VisualElement>
+        <ui:Button text="⟵BACK" display-tooltip-when-elided="true" name="tutorial__back-button" class="back-button" />
+    </ui:VisualElement>
+</ui:UXML>

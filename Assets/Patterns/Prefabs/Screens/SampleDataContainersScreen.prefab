@@ -1,0 +1,318 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7383930408554510258
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7383930408554510257}
+  - component: {fileID: 7383930408554510263}
+  m_Layer: 0
+  m_Name: UpdateButton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7383930408554510257
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7383930408554510258}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.784508, y: -0.20962465, z: 6.1396346}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7383930408692689514}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7383930408554510263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7383930408554510258}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 727cf32970e6e4ccea76989fcbaa4be0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EventChannel: {fileID: 11400000, guid: ce91cbb32c11f4685a35ec176ec98b71, type: 2}
+  m_Document: {fileID: 7383930408692689515}
+  m_ButtonID: tutorial__update-button
+  m_Delay: 0.5
+--- !u!1 &7383930408576982127
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7383930408576982126}
+  - component: {fileID: 7383930408576982124}
+  - component: {fileID: 7383930408576982125}
+  m_Layer: 0
+  m_Name: BackButton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7383930408576982126
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7383930408576982127}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.784508, y: -0.20962465, z: 6.1396346}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7383930408692689514}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7383930408576982124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7383930408576982127}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 727cf32970e6e4ccea76989fcbaa4be0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EventChannel: {fileID: 11400000, guid: 7eafb2993b20542018f125cd55c9cc11, type: 2}
+  m_Document: {fileID: 7383930408692689515}
+  m_ButtonID: tutorial__back-button
+  m_Delay: 0.5
+--- !u!114 &7383930408576982125
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7383930408576982127}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea56b8c7a755349868431d684f0967fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  note: 'This component connects a UIElements button with an event channel. '
+--- !u!1 &7383930408692689508
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7383930408692689514}
+  - component: {fileID: 7383930408692689515}
+  - component: {fileID: 7383930408692689513}
+  m_Layer: 5
+  m_Name: SampleDataContainersScreen
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7383930408692689514
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7383930408692689508}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7383930409582811509}
+  - {fileID: 7383930409015858400}
+  - {fileID: 7383930408554510257}
+  - {fileID: 7383930408576982126}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7383930408692689515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7383930408692689508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 19102, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PanelSettings: {fileID: 11400000, guid: f8cb647c893b5418fbf3c52d50f43929, type: 2}
+  m_ParentUI: {fileID: 0}
+  sourceAsset: {fileID: 9197481963319205126, guid: 20d914f8e6a5c47eaae40ae7a2bf6af8, type: 3}
+  m_SortingOrder: 0
+--- !u!114 &7383930408692689513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7383930408692689508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31b1625fa83c24968af0feb848e1bd62, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Document: {fileID: 7383930408692689515}
+  m_ParentName: tutorial__parent
+  m_HideOnAwake: 0
+  m_IsTransparent: 0
+  m_TutorialScreenData: {fileID: 11400000, guid: 743decdfae6e34474a90b6347eac548c, type: 2}
+  m_NextButtonID: tutorial__button-next
+  m_LastButtonID: tutorial__button-last
+  m_TitleID: tutorial__title
+  m_CurrentPageID: tutorial__page-text
+--- !u!1 &7383930409015858401
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7383930409015858400}
+  - component: {fileID: 7383930409015858407}
+  - component: {fileID: 7383930409015858405}
+  - component: {fileID: 7383930409015858404}
+  m_Layer: 0
+  m_Name: SelectButton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7383930409015858400
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7383930409015858401}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.784508, y: -0.20962465, z: 6.1396346}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7383930408692689514}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7383930409015858407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7383930409015858401}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea56b8c7a755349868431d684f0967fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  note: 'This component connects a UIElements button with an event channel. '
+--- !u!114 &7383930409015858405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7383930409015858401}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1b4dbe9bd9ee4cb1916421ad54d4a60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Document: {fileID: 7383930408692689515}
+  m_ButtonID: tutorial__select-button
+  m_Event:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Delay: 0.5
+--- !u!114 &7383930409015858404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7383930409015858401}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a50ce2b0e9394210874d92089b7e0cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ObjectToSelect: {fileID: 11400000, guid: cbdd456b71c05401f8d1e14656ca4c9a, type: 2}
+  m_Document: {fileID: 7383930408692689515}
+  m_ButtonID: tutorial__select-button
+--- !u!1 &7383930409582811510
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7383930409582811509}
+  - component: {fileID: 7383930409582811508}
+  m_Layer: 5
+  m_Name: CreditsScreen
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7383930409582811509
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7383930409582811510}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7383930408692689514}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7383930409582811508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7383930409582811510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e24e9124dd8d43b5b105810e450f96e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_CreditsData: {fileID: 11400000, guid: cbdd456b71c05401f8d1e14656ca4c9a, type: 2}
+  m_Document: {fileID: 7383930408692689515}
+  m_CreditLineAsset: {fileID: 9197481963319205126, guid: 74b93470eebb047db833c0573eeac30d, type: 3}
+  m_CreditLineClassName: credit-line
+  m_TitleName: credits__title
+  m_SubheadingName: credits__subheading
+  m_BodyName: credits__body
+  m_UpdateEvent: {fileID: 11400000, guid: ce91cbb32c11f4685a35ec176ec98b71, type: 2}

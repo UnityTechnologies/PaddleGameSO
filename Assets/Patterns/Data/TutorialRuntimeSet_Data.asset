@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1841b7fe398674bcda282482872188a9, type: 3}
+  m_Name: TutorialRuntimeSet_Data
+  m_EditorClassIdentifier: 
+  m_Description: Content data for the Runtime sets tutorial screen.
+  m_Title: Runtime sets
+  m_BodyText:
+  - 'A <b>runtime set</b> is a ScriptableObject that can store a List. This can provide
+    access to frequently referenced components or GameObjects at runtime.
+
+
+    The
+    ScriptableObject data in this case is not static. The runtime set includes logic
+    to update dynamically.
+
+
+    Click the <b>Spawn Block</b> button to create an
+    object.'
+  - 'Click the <b>Select Set</b> to inspect the <b>BlockRuntimeSet_Data</b> ScriptableObject.
+
+
+    Because
+    the data is located on an asset, its public List of <b>Items</b> is accessible
+    at any time.
+
+
+    This can help reduce the need for singletons in your project,
+    improving testability and modularity.'
+  - "The runtime set raises an event when changes occur to the <b>Items</b> list.
+    \n\nIn this example, the <b>BlockRuntimeSetUpdated_SO</b> event channel notifies
+    the  on-screen label to update whenever a block is created or destroyed."
+  - "A custom Editor script shows the list of GameObjects in the runtime set. \n\nThis
+    replaces the default Inspector, which normally displays a 'Type mismatch' when
+    referencing a Scene object from a project asset. \n\nSelect an element from the
+    ListView to locate it in the Hierarchy."
+  m_Prefabs:
+  - {fileID: 3418159254070202778, guid: ccc296dad8d7345cf89df8035f607ad3, type: 3}

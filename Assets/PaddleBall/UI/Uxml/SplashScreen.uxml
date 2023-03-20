@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/PaddleBall/UI/Uss/PaddleBallScreens.uss?fileID=7433441132597879392&amp;guid=5f1fa7b4fc1384e90a776788b57e71c1&amp;type=3#PaddleBallScreens" />
+    <ui:VisualElement name="splash__background" style="flex-basis: 100%; -unity-background-image-tint-color: rgb(255, 28, 28); background-color: rgb(38, 38, 38); align-items: center; justify-content: center; font-size: 11px;">
+        <ui:VisualElement name="splash__background-image" class="background-image" style="background-image: url(&apos;project://database/Assets/PaddleBall/Textures/Backgrounds/BackgroundBootloader.png?fileID=2800000&amp;guid=78bbd179e88c48448a45019b946852f7&amp;type=3#BackgroundBootloader&apos;); -unity-background-scale-mode: scale-to-fit;" />
+        <ui:VisualElement name="splash__load-panel" style="align-items: center; justify-content: center; flex-grow: 1; display: flex; width: 59%; height: 66%; max-height: 50%; top: -9%; right: -23%; -unity-font-definition: none;">
+            <ui:Label text="LOADING" display-tooltip-when-elided="true" name="splash__loading-text" style="margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; font-size: 39px; -unity-font-definition: url(&apos;project://database/Assets/_ThirdParty/Fonts/Inter/Inter-Medium/Inter-Medium%20SDF_FontAsset.asset?fileID=11400000&amp;guid=3a7d7cc90e43f44478bfccf76c97073e&amp;type=2#Inter-Medium SDF_FontAsset&apos;); flex-basis: 16%; color: rgb(255, 255, 255); -unity-text-align: lower-left;" />
+            <ui:ProgressBar value="0" name="splash__progress-bar" style="width: 50%; background-color: rgb(255, 255, 255); height: 2%; color: rgb(185, 185, 185);" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

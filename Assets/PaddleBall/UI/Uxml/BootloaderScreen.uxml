@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/PaddleBall/UI/Uss/PaddleBallScreens.uss?fileID=7433441132597879392&amp;guid=5f1fa7b4fc1384e90a776788b57e71c1&amp;type=3#PaddleBallScreens" />
+    <ui:VisualElement name="splash__background" style="flex-basis: 100%; -unity-background-image-tint-color: rgb(255, 28, 28); background-color: rgb(38, 38, 38); align-items: flex-end; justify-content: center; font-size: 11px;">
+        <ui:VisualElement name="splash__background-image" class="background-image" />
+        <ui:VisualElement name="splash__load-panel" style="align-items: center; justify-content: center; flex-grow: 1; display: flex; width: 53%; height: 66%; max-height: 50%; top: -9%; right: 0; -unity-font-definition: none; color: rgb(255, 255, 255);">
+            <ui:Label text="Enter Play mode to begin" display-tooltip-when-elided="true" name="splash__instructions" style="-unity-font-definition: url(&apos;project://database/Assets/_ThirdParty/Fonts/Inter/Inter%20Variable/InterVariableSDF_FontAsset.asset?fileID=11400000&amp;guid=d3b89eb4b28474c3fb3a1106dfe4f26b&amp;type=2#InterVariableSDF_FontAsset&apos;); font-size: 37px; top: 0; -unity-font-style: normal;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

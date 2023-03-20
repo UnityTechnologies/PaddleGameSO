@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4501185195738516575
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4501185195738516574}
+  - component: {fileID: 4501185195738516573}
+  - component: {fileID: 2104090864}
+  - component: {fileID: 4543151500675483928}
+  - component: {fileID: 6726640885309308134}
+  m_Layer: 0
+  m_Name: Game_Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4501185195738516574
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4501185195738516575}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.59606653, y: 0.48617148, z: -0.07753677}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4501185195738516573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4501185195738516575}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c06a027b5f8b47bba9d18c7eecefc0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AutoStart: 1
+  m_GameSetup: {fileID: 4543151500675483928}
+  m_GameData: {fileID: 11400000, guid: 17b28a28b74744ec09ead40144686f9f, type: 2}
+  m_InputReader: {fileID: 11400000, guid: 0c4f85247089b4ec6b645cadbab2e09e, type: 2}
+  m_GameStarted: {fileID: 11400000, guid: 670d67013852d4bdba7ee978b4bec426, type: 2}
+  m_GameEnded: {fileID: 11400000, guid: c167ff09e57c84f6e9b7fd34e0591efc, type: 2}
+  m_PointScored: {fileID: 11400000, guid: efbd48ab913b6410d9dcca384a8788bc, type: 2}
+  m_WinnerShown: {fileID: 11400000, guid: 380c4168f06b04f90b370bdcc30f00e7, type: 2}
+  m_SceneUnloaded: {fileID: 11400000, guid: 509cde1eda4624fb8b1daf586fd74806, type: 2}
+  m_HomeScreenShown: {fileID: 11400000, guid: 7eafb2993b20542018f125cd55c9cc11, type: 2}
+  m_GoalHit: {fileID: 11400000, guid: 2a420057587564efcb99da196dee5514, type: 2}
+  m_ScoreTargetReached: {fileID: 11400000, guid: b0ed841dfa59244aeb1350c172aedd61, type: 2}
+  m_AllObjectivesCompleted: {fileID: 11400000, guid: 0f3916192686d411884bbecd2915e520, type: 2}
+  m_GameReset: {fileID: 11400000, guid: 74973e148b32c48f69cc39b44c66ebe7, type: 2}
+  m_IsPaused: {fileID: 11400000, guid: 4841e647b507d4df6aa683ca800db635, type: 2}
+  m_GameQuit: {fileID: 11400000, guid: 27c3ffba1d22f4aa78edeb8ad1357100, type: 2}
+--- !u!114 &2104090864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4501185195738516575}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea56b8c7a755349868431d684f0967fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  note: "The GameManager manages the progression of the game and does not directly
+    access gameplay GameObjects. Instead, it communicates with any interested objects
+    through event channels. \n\nAdditionally, the GameManager listens for events
+    from other objects, such as when a ball hits a goal or the win condition is met."
+--- !u!114 &4543151500675483928
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4501185195738516575}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe24e0d07cf2b4bc3adceb74ee08d9fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PaddlePrefab: {fileID: 1164306026, guid: bfe10eb4c24924b859edd4eae3bfcd1d, type: 3}
+  m_BallPrefab: {fileID: 5193053542542995513, guid: 3a5d1eb2913a54ff387b54d53e21cfb5, type: 3}
+  m_WallPrefab: {fileID: 2900130655516478032, guid: 3f1a311a1934b467bb70be0ae44a73a6, type: 3}
+  m_GoalPrefab: {fileID: 5414390758467235700, guid: c19d0c9a6e3f14e7180bde68dbf4f237, type: 3}
+  m_Mode: 0
+  m_LevelLayout: {fileID: 11400000, guid: 54cf8d6cda4624893a6033d17b693ca2, type: 2}
+  m_InputReader: {fileID: 11400000, guid: 0c4f85247089b4ec6b645cadbab2e09e, type: 2}
+  m_JsonFilename: LevelLayout.json
+--- !u!114 &6726640885309308134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4501185195738516575}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea56b8c7a755349868431d684f0967fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  note: "The GameSetup component handles instantiating the Paddles and Ball.  \n\nChoose
+    Mode: ScriptableObject to select a LevelLayout asset or Choose Mode: Json to
+    convert a saved JSON file. This allows the user to mod the level layout file
+    outside of the Editor."

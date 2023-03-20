@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1098917023842230458
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1098917023842230456}
+  - component: {fileID: 1098917023842230459}
+  - component: {fileID: -2684881172529478913}
+  - component: {fileID: 1098917023842230457}
+  m_Layer: 0
+  m_Name: SceneLoader
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1098917023842230456
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1098917023842230458}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1098917023842230459
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1098917023842230458}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8768340b418f0431e87d8be34490ee53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_LoadScenePathEventChannel: {fileID: 11400000, guid: 920ac8761955945c88b028e7e9aa9c66, type: 2}
+  m_ReloadSceneEventChannel: {fileID: 11400000, guid: 5ba17b9130b70463599174057a27e30c, type: 2}
+  m_LoadNextSceneEventChannel: {fileID: 11400000, guid: 4b6bdccb0b963454780b6ef966c6016e, type: 2}
+  m_LastSceneUnloaded: {fileID: 11400000, guid: 509cde1eda4624fb8b1daf586fd74806, type: 2}
+--- !u!114 &-2684881172529478913
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1098917023842230458}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 889eb338f1f3e48289bf1e74b9d19684, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1098917023842230457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1098917023842230458}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea56b8c7a755349868431d684f0967fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  note: The SceneLoader component allows other objects to load/unload scenes by their
+    scene path or index number. It also listens to event channels to reload the current
+    scene or load the next scene in the Build Settings.

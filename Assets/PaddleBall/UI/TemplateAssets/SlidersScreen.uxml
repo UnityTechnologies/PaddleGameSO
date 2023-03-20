@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/GameSystems/Demos/Pong/UI/Uss/ExampleScreenSelector.uss?fileID=7433441132597879392&amp;guid=5f1fa7b4fc1384e90a776788b57e71c1&amp;type=3#ExampleScreenSelector" />
+    <ui:VisualElement name="settings-screen__parent" style="flex-basis: 100%; background-color: rgba(255, 255, 255, 0); align-items: center; justify-content: center;">
+        <ui:VisualElement name="settings-screen__sliders-group" style="flex-basis: 90%; width: 61%; background-color: rgba(255, 255, 255, 0);">
+            <ui:Slider picking-mode="Ignore" label="Slider" value="42" high-value="100" name="settings-screen__slider-a" class="volume-slider" />
+            <ui:Slider picking-mode="Ignore" label="Slider" value="42" high-value="100" name="settings-screen__slider-b" class="volume-slider" />
+            <ui:Slider picking-mode="Ignore" label="Slider" value="42" high-value="100" name="settings-screen__slider-c" class="volume-slider" />
+            <ui:Slider picking-mode="Ignore" label="Slider" value="42" high-value="100" name="settings-screen__slider-d" class="volume-slider" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

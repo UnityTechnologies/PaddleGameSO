@@ -1,0 +1,48 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/PaddleBall/UI/Uss/PaddleBallScreens.uss?fileID=7433441132597879392&amp;guid=5f1fa7b4fc1384e90a776788b57e71c1&amp;type=3#PaddleBallScreens" />
+    <ui:VisualElement name="tutorial__parent" style="width: 100%; height: 100%; flex-direction: row; align-items: center; background-color: rgba(0, 0, 0, 0);">
+        <ui:VisualElement name="tutorial__background" style="width: 100%; height: 100%; position: absolute; background-color: rgba(58, 58, 58, 0); top: 0; left: 0;" />
+        <ui:VisualElement name="instructions__container" style="flex-basis: 45%; width: 33%; height: 90%; color: rgb(255, 255, 255); margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 26px; padding-right: 26px; padding-top: 26px; padding-bottom: 26px; background-color: rgba(5, 5, 5, 0); align-items: stretch;">
+            <ui:VisualElement name="instructions__header" style="flex-basis: 15%; align-items: center; justify-content: center;">
+                <ui:Label text="Event channels" display-tooltip-when-elided="true" name="tutorial__title" style="flex-basis: 100%; -unity-font-definition: url(&apos;project://database/Assets/_ThirdParty/Fonts/Roboto/Roboto-Black%20SDF_FontAsset.asset?fileID=11400000&amp;guid=e74ebc05ab3564fb187648ced4e2c0fa&amp;type=2#Roboto-Black SDF_FontAsset&apos;); font-size: 102px; color: rgb(255, 255, 255);" />
+            </ui:VisualElement>
+            <ui:VisualElement name="instructions__body" style="flex-basis: 60%; flex-grow: 1; flex-shrink: 0; padding-bottom: 5%;">
+                <ui:Label text="ScriptableObject-based events can help your GameObjects communicate. These &quot;event channels&quot; act as intermediaries between the broadcasting objects and their listeners.&#10;&#10;Assign the EventChannel in each  EventChannelListener component.&#10;&#10;Click the button to raise the event. &#10;" display-tooltip-when-elided="true" name="tutorial__page-text" class="body-text" style="position: absolute; font-size: 32px; top: 0; left: 0; flex-shrink: 1;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="instructions__footer" style="flex-basis: 15%; align-items: stretch; justify-content: center; margin-left: 0; margin-top: 1%;">
+                <ui:VisualElement name="tutorial__button-panel" style="flex-direction: row; justify-content: center; position: absolute; width: 100%; top: 0; height: 100%; align-items: center;">
+                    <ui:Button display-tooltip-when-elided="true" name="tutorial__button-last" enable-rich-text="true" text="&#10;" class="button-nextlast" style="left: 0; position: absolute; width: 10%; height: 80%;" />
+                    <ui:Button text="Raise Event" display-tooltip-when-elided="true" name="tutorial__raise-event-button" class="tutorial-button" style="flex-basis: 48%; width: 36%;" />
+                    <ui:Button display-tooltip-when-elided="true" name="tutorial__button-next" class="button-nextlast" style="rotate: 0; display: flex; position: absolute; flex-basis: auto; width: 10%; height: 80%; left: 90%;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement picking-mode="Ignore" name="play-area__container" style="flex-basis: 50%; height: 90%;">
+            <ui:VisualElement name="play-area__header" style="flex-basis: 25%; align-items: center; justify-content: center;">
+                <ui:Button display-tooltip-when-elided="true" name="broadcaster__button" style="background-image: none; width: 30%; height: 100%; -unity-background-scale-mode: scale-to-fit; background-color: rgba(248, 205, 205, 0); border-left-color: rgba(149, 149, 149, 0); border-right-color: rgba(149, 149, 149, 0); border-top-color: rgba(149, 149, 149, 0); border-bottom-color: rgba(149, 149, 149, 0); justify-content: flex-start; align-items: center; top: -5%;">
+                    <ui:Label text="Broadcaster" display-tooltip-when-elided="true" name="broadcaster__label" style="-unity-font-definition: url(&apos;project://database/Assets/_ThirdParty/Fonts/Roboto/Roboto-Medium%20SDF_FontAsset.asset?fileID=11400000&amp;guid=db5974fdd47364381a7edc91a9df9b2f&amp;type=2#Roboto-Medium SDF_FontAsset&apos;); color: rgb(255, 255, 255); font-size: 40px; top: 0;" />
+                    <ui:VisualElement name="broadcaster__icon" style="background-image: url(&apos;project://database/Assets/PaddleBall/Textures/Icons/Broadcast_Icon.png?fileID=21300000&amp;guid=2e58bda49aa614f148459ffee7515103&amp;type=3#Broadcast_Icon&apos;); -unity-background-scale-mode: scale-to-fit; flex-basis: 100%; width: 75%;" />
+                </ui:Button>
+            </ui:VisualElement>
+            <ui:VisualElement name="play-area__body" style="flex-basis: 50%; flex-grow: 1; align-items: center;">
+                <ui:VisualElement name="sobject__container" style="width: 100%; align-items: center; justify-content: center; flex-basis: 35%; margin-top: 2%; top: 8%; flex-direction: row;">
+                    <ui:VisualElement name="sobject__icon" style="width: 17%; height: 80%; background-image: url(&apos;project://database/Assets/Patterns/Textures/SignalRelay_Icon.png?fileID=21300000&amp;guid=d7ccabba8e8e44f4aa5c671a97b891c8&amp;type=3#SignalRelay_Icon&apos;); -unity-background-scale-mode: scale-to-fit;" />
+                    <ui:Label text="Event channel" display-tooltip-when-elided="true" name="sobject__label" style="-unity-font-definition: url(&apos;project://database/Assets/_ThirdParty/Fonts/Roboto/Roboto-Medium%20SDF_FontAsset.asset?fileID=11400000&amp;guid=db5974fdd47364381a7edc91a9df9b2f&amp;type=2#Roboto-Medium SDF_FontAsset&apos;); color: rgb(255, 255, 255); font-size: 40px; top: 0;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="listener__container" style="flex-basis: 55%; flex-direction: row; margin-top: 5%; width: 70%; top: 25%;">
+                    <ui:VisualElement name="listener__icon-1" style="flex-basis: 50%; -unity-background-scale-mode: scale-to-fit; background-image: url(&apos;project://database/Assets/PaddleBall/Textures/Icons/Listener_Icon.png?fileID=21300000&amp;guid=20b34f5a3f45c44fcaa630e86e33cd46&amp;type=3#Listener_Icon&apos;); height: 40%; justify-content: flex-end; align-items: center;">
+                        <ui:Label text="Listener" display-tooltip-when-elided="true" name="listener__label-1" style="-unity-font-definition: url(&apos;project://database/Assets/_ThirdParty/Fonts/Roboto/Roboto-Medium%20SDF_FontAsset.asset?fileID=11400000&amp;guid=db5974fdd47364381a7edc91a9df9b2f&amp;type=2#Roboto-Medium SDF_FontAsset&apos;); font-size: 40px; color: rgb(255, 255, 255); bottom: -50%;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="listener__icon-2" style="flex-basis: 50%; -unity-background-scale-mode: scale-to-fit; background-image: url(&apos;project://database/Assets/PaddleBall/Textures/Icons/Listener_Icon.png?fileID=21300000&amp;guid=20b34f5a3f45c44fcaa630e86e33cd46&amp;type=3#Listener_Icon&apos;); height: 40%; justify-content: flex-end; align-items: center;">
+                        <ui:Label text="Listener" display-tooltip-when-elided="true" name="listener__label-2" style="-unity-font-definition: url(&apos;project://database/Assets/_ThirdParty/Fonts/Roboto/Roboto-Medium%20SDF_FontAsset.asset?fileID=11400000&amp;guid=db5974fdd47364381a7edc91a9df9b2f&amp;type=2#Roboto-Medium SDF_FontAsset&apos;); font-size: 40px; color: rgb(255, 255, 255); bottom: -50%;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="listener__icon-3" style="flex-basis: 50%; -unity-background-scale-mode: scale-to-fit; background-image: url(&apos;project://database/Assets/PaddleBall/Textures/Icons/Listener_Icon.png?fileID=21300000&amp;guid=20b34f5a3f45c44fcaa630e86e33cd46&amp;type=3#Listener_Icon&apos;); height: 40%; justify-content: flex-end; align-items: center;">
+                        <ui:Label text="Listener" display-tooltip-when-elided="true" name="listener__label-3" style="-unity-font-definition: url(&apos;project://database/Assets/_ThirdParty/Fonts/Roboto/Roboto-Medium%20SDF_FontAsset.asset?fileID=11400000&amp;guid=db5974fdd47364381a7edc91a9df9b2f&amp;type=2#Roboto-Medium SDF_FontAsset&apos;); font-size: 40px; color: rgb(255, 255, 255); bottom: -50%;" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="play-area__footer" style="flex-basis: 10%;" />
+        </ui:VisualElement>
+        <ui:Button text="⟵BACK" display-tooltip-when-elided="true" name="tutorial__back-button" class="back-button" />
+    </ui:VisualElement>
+</ui:UXML>

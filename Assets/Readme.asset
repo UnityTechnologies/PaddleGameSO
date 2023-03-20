@@ -1,0 +1,174 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcf7219bab7fe46a1ad266029b2fee19, type: 3}
+  m_Name: Readme
+  m_EditorClassIdentifier: 
+  icon: {fileID: 2800000, guid: 433ad87ba1360438487d00049865c160, type: 3}
+  title: PaddleBall ScriptableObjects
+  sections:
+  - heading: Welcome to the Paddle Ball project
+    text: This demo project showcases design patterns and game architecture using
+      ScriptableObjects. It serves as a companion to our <b>Create Modular Game Architecture
+      in Unity with ScriptableObjects</b> e-book.
+    linkText: 
+    url: 
+  - heading: 
+    text: 
+    linkText: 
+    url: 
+  - heading: E-Book
+    text: 'For additional information, please refer to '
+    linkText: Create Modular Game Architecture in Unity with ScriptableObjects
+    url: 
+  - heading: 
+    text: 
+    linkText: 
+    url: 
+  - heading: Getting Started
+    text: Start the project from the <b>Bootloader_Scene</b> scene.
+    linkText: 
+    url: 
+  - heading: 
+    text: Select <b>Load Bootstrap Scene on Play</b> from the <b>GameSystems</b>
+      menu to make this the default scene in <b>Play</b> mode.
+    linkText: 
+    url: 
+  - heading: 
+    text: You can also disable this behavior in order to explore individual scenes
+      within the project.
+    linkText: 
+    url: 
+  - heading: 
+    text: 
+    linkText: 
+    url: 
+  - heading: Project Organization
+    text: 'The examples in this project appear in two parts:'
+    linkText: 
+    url: 
+  - heading: 
+    text: <b>Design patterns</b> that show how ScriptableObjects can solve recurring
+      problems in Unity development.
+    linkText: 
+    url: 
+  - heading: 
+    text: <b>Mini-games</b> that show how to put these patterns together into small
+      working applications.
+    linkText: 
+    url: 
+  - heading: 
+    text: 
+    linkText: 
+    url: 
+  - heading: Design Patterns
+    text: Here are a few design patterns to help you build your own projects.
+    linkText: 
+    url: 
+  - heading: 
+    text: '<b>Data containers</b>: This example shows how to store static data for
+      use at runtime.'
+    linkText: 
+    url: 
+  - heading: 
+    text: '<b>Delegate objects</b>: This demonstrates how to encapsulate interchangeable
+      logic into its own ScriptableObject.'
+    linkText: 
+    url: 
+  - heading: 
+    text: '<b>Event Channels</b>: These ScriptableObjects help your objects communicate.'
+    linkText: 
+    url: 
+  - heading: 
+    text: '<b>Enums</b>: For better comparison operations, use a ScriptableObject
+      instead of a traditional enum.'
+    linkText: 
+    url: 
+  - heading: 
+    text: '<b>Runtime Sets</b>: These can store frequently accessed objects or components
+      from any scene without the need for a singleton.'
+    linkText: 
+    url: 
+  - heading: 
+    text: 
+    linkText: 
+    url: 
+  - heading: Mini-games
+    text: The project includes a basic paddle and ball game to illustrate how to
+      put these patterns together into functional game systems.
+    linkText: 
+    url: 
+  - heading: 
+    text: <b>Classic</b> is the archetype of paddle and ball games.
+    linkText: 
+    url: 
+  - heading: 
+    text: <b>Hockey</b> shows how to define custom wall positions using serialized
+      text.
+    linkText: 
+    url: 
+  - heading: 
+    text: <b>Foosball</b> uses a prefab definition for the level walls.
+    linkText: 
+    url: 
+  - heading: 
+    text: 
+    linkText: 
+    url: 
+  - heading: Documentation
+    text: 
+    linkText: Read more about ScriptableObjects
+    url: https://docs.unity3d.com/Manual/class-ScriptableObject.html
+  - heading: 
+    text: 
+    linkText: 
+    url: 
+  - heading: Additional Resources
+    text: The implementations in this project are provided for inspiration and education.
+      In most cases, the code examples favor clarity over compactness.
+    linkText: 
+    url: 
+  - heading: 
+    text: 'You will likely need additional tools and support to adapt these patterns
+      to your specific production needs. For additional examples of what is possible
+      with ScriptableObjects, please see the following:'
+    linkText: 
+    url: 
+  - heading: 
+    text: 
+    linkText: 
+    url: 
+  - heading: 
+    text: 
+    linkText: Overthrowing the MonoBehaviour Tyranny in a Glorious Scriptable Object
+      Revolution
+    url: https://www.youtube.com/watch?v=6vmRwLYWNRo
+  - heading: 
+    text: 
+    linkText: Game Architecture with ScriptableObjects
+    url: https://www.youtube.com/watch?v=raQ3iHhE_Kk
+  - heading: 
+    text: 
+    linkText: SOAP ScriptableObject Architecture Pattern
+    url: https://assetstore.unity.com/packages/tools/utilities/soap-scriptableobject-architecture-pattern-232107
+  - heading: 
+    text: 
+    linkText: Unity Atoms
+    url: https://github.com/unity-atoms/unity-atoms
+  - heading: 
+    text: 
+    linkText: 
+    url: 
+  - heading: 
+    text: 
+    linkText: 
+    url: 
+  loadedLayout: 1

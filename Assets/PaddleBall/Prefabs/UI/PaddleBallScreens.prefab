@@ -1,0 +1,2546 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &459756762922388569
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 459756762922388568}
+  - component: {fileID: 459756762922388575}
+  m_Layer: 0
+  m_Name: EnumsButton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &459756762922388568
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 459756762922388569}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4671567882473071835}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &459756762922388575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 459756762922388569}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cba640c1247a461891b0525dcd851f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Document: {fileID: 9190579699162760594}
+  m_ButtonID: sample-select__button-d
+  m_EventChannel: {fileID: 11400000, guid: d3e4c1b7d67914e09b583a17a8dfa78a, type: 2}
+  m_Delay: 0.5
+--- !u!1 &459756764800264901
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 459756764800264900}
+  - component: {fileID: 5006449969736544923}
+  - component: {fileID: 9106068136839123692}
+  m_Layer: 0
+  m_Name: QuitButton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &459756764800264900
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 459756764800264901}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7076620640492560539}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5006449969736544923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 459756764800264901}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cba640c1247a461891b0525dcd851f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Document: {fileID: 7076620640492560517}
+  m_ButtonID: pong-menu__button-quit
+  m_EventChannel: {fileID: 11400000, guid: 9b1ac1be450af43b7bf2352bc6cfe090, type: 2}
+  m_Delay: 0.5
+--- !u!114 &9106068136839123692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 459756764800264901}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea56b8c7a755349868431d684f0967fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  note: 'The ButtonVoidEventChannelBinder pairs a button name (UXML string ID) with
+    an event channel. It raises the event when the user clicks the UI Button.
+
+
+    Note:
+    The ApplicationQuit event channel sends a signal to a SceneLoader (or equivalent)
+    to stop the application.'
+--- !u!1 &502369966302536611
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 502369966302536610}
+  - component: {fileID: 502369966302536615}
+  m_Layer: 0
+  m_Name: BackButton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &502369966302536610
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 502369966302536611}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3002042614111612871}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &502369966302536615
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 502369966302536611}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cba640c1247a461891b0525dcd851f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Document: {fileID: 3002042614111612872}
+  m_ButtonID: play-mode__back-button
+  m_EventChannel: {fileID: 11400000, guid: 4a93c93d048e84cc78bb0f5a56f643b2, type: 2}
+  m_Delay: 0.5
+--- !u!1 &773267400964719518
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7868789344170704308}
+  - component: {fileID: 3007679002223261238}
+  m_Layer: 0
+  m_Name: PlayClassicButton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7868789344170704308
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 773267400964719518}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3002042614111612871}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3007679002223261238
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 773267400964719518}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cba640c1247a461891b0525dcd851f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Document: {fileID: 3002042614111612872}
+  m_ButtonID: play-mode__button-a
+  m_EventChannel: {fileID: 11400000, guid: e0ec326bcb03f4662b5963f7b770f82f, type: 2}
+  m_Delay: 0.5
+--- !u!1 &830915996700322191
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 830915996700322188}
+  - component: {fileID: 830915996700322189}
+  - component: {fileID: 447098845891319799}
+  m_Layer: 0
+  m_Name: SwitchEnumButton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &830915996700322188
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 830915996700322191}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.784508, y: -0.20962465, z: 6.1396346}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1264165861975471502}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &830915996700322189
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 830915996700322191}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea56b8c7a755349868431d684f0967fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  note: 'This component connects a UIElements button with an event channel. '
+--- !u!114 &447098845891319799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 830915996700322191}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cba640c1247a461891b0525dcd851f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Document: {fileID: 1264165861975471503}
+  m_ButtonID: tutorial__raise-event-button
+  m_EventChannel: {fileID: 11400000, guid: 993820a7e26a24aaa9db9be0b2fbb49e, type: 2}
+  m_Delay: 0.5
+--- !u!1 &1063580848178169867
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1063580848178169864}
+  - component: {fileID: 1063580846590998053}
+  - component: {fileID: 6914810488904887473}
+  m_Layer: 0
+  m_Name: ResumeButton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1063580848178169864
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1063580848178169867}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3731437305910332081}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1063580846590998053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1063580848178169867}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cba640c1247a461891b0525dcd851f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Document: {fileID: 3731437305910332083}
+  m_ButtonID: pause-popup__resume-button
+  m_EventChannel: {fileID: 11400000, guid: e0ec326bcb03f4662b5963f7b770f82f, type: 2}
+  m_Delay: 0.5
+--- !u!114 &6914810488904887473
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1063580848178169867}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f11e1048555d243d5946b47163d5c0a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_State: 0
+  m_Document: {fileID: 3731437305910332083}
+  m_ButtonID: pause-popup__resume-button
+  m_EventChannel: {fileID: 11400000, guid: 4841e647b507d4df6aa683ca800db635, type: 2}
+  m_Delay: 0.5
+--- !u!1 &1264165861308278870
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1264165861308278869}
+  - component: {fileID: 1264165861308278868}
+  - component: {fileID: 4953446202100715385}
+  m_Layer: 0
+  m_Name: SpawnObjectButton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1264165861308278869
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1264165861308278870}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.784508, y: -0.20962465, z: 6.1396346}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1934572556877293848}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1264165861308278868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1264165861308278870}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea56b8c7a755349868431d684f0967fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  note: 'This component connects a UIElements button with an event channel. '
+--- !u!114 &4953446202100715385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1264165861308278870}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cba640c1247a461891b0525dcd851f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Document: {fileID: 1934572556877293849}
+  m_ButtonID: tutorial__raise-event-button
+  m_EventChannel: {fileID: 11400000, guid: 3d2ad415445b44e90960bfbc8c7a64d3, type: 2}
+  m_Delay: 0
+--- !u!1 &1264165861975471488
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1264165861975471502}
+  - component: {fileID: 1264165861975471503}
+  - component: {fileID: 1264165861975471501}
+  m_Layer: 5
+  m_Name: SampleEnumsScreen
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1264165861975471502
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1264165861975471488}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 830915996700322188}
+  - {fileID: 8523783874613174143}
+  m_Father: {fileID: 7076620640066690719}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1264165861975471503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1264165861975471488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 19102, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PanelSettings: {fileID: 11400000, guid: f8cb647c893b5418fbf3c52d50f43929, type: 2}
+  m_ParentUI: {fileID: 0}
+  sourceAsset: {fileID: 9197481963319205126, guid: d87ac9e31f13241ada9021617a9d5cd6, type: 3}
+  m_SortingOrder: 0
+--- !u!114 &1264165861975471501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1264165861975471488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31b1625fa83c24968af0feb848e1bd62, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Document: {fileID: 1264165861975471503}
+  m_ParentName: tutorial__parent
+  m_HideOnAwake: 0
+  m_IsTransparent: 0
+  m_TutorialScreenData: {fileID: 11400000, guid: f9cb9a323dde1414d81fae1865174578, type: 2}
+  m_NextButtonID: tutorial__button-next
+  m_LastButtonID: tutorial__button-last
+  m_TitleID: tutorial__title
+  m_CurrentPageID: tutorial__page-text
+--- !u!1 &1604237361070842579
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4671567882473071835}
+  - component: {fileID: 9190579699162760594}
+  - component: {fileID: 991675788141676095}
+  m_Layer: 0
+  m_Name: SampleSelectScreen
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4671567882473071835
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1604237361070842579}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.049876843, y: -1.0261556, z: 0.010110552}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7150160855485374791}
+  - {fileID: 7043860614939032605}
+  - {fileID: 7150160855939333354}
+  - {fileID: 7150160856637546095}
+  - {fileID: 459756762922388568}
+  - {fileID: 1730191973362837495}
+  m_Father: {fileID: 7076620640066690719}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9190579699162760594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1604237361070842579}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 19102, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PanelSettings: {fileID: 11400000, guid: f8cb647c893b5418fbf3c52d50f43929, type: 2}
+  m_ParentUI: {fileID: 0}
+  sourceAsset: {fileID: 9197481963319205126, guid: 7441f5be634dd46d4ad9e1aaf189ca64, type: 3}
+  m_SortingOrder: 0
+--- !u!114 &991675788141676095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1604237361070842579}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f16d8cbcd9ec4644a82e51b534ac00d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Document: {fileID: 9190579699162760594}
+  m_ParentName: sample-select__parent
+  m_HideOnAwake: 1
+  m_IsTransparent: 0
+--- !u!1 &1730191973362837494
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1730191973362837495}
+  - component: {fileID: 1718837116131848661}
+  - component: {fileID: 3987009406789146906}
+  m_Layer: 0
+  m_Name: BackButton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1730191973362837495
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1730191973362837494}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4671567882473071835}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1718837116131848661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1730191973362837494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cba640c1247a461891b0525dcd851f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Document: {fileID: 9190579699162760594}
+  m_ButtonID: sample-select__back-button
+  m_EventChannel: {fileID: 11400000, guid: 4a93c93d048e84cc78bb0f5a56f643b2, type: 2}
+  m_Delay: 0.5
+--- !u!114 &3987009406789146906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1730191973362837494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea56b8c7a755349868431d684f0967fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  note: 'This component connects a UIElements button with an event channel. '
+--- !u!1 &1890000211024489495
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1890000211024489494}
+  - component: {fileID: 1890000211024489493}
+  - component: {fileID: 7213219519840283704}
+  m_Layer: 0
+  m_Name: BackButton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1890000211024489494
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1890000211024489495}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.784508, y: -0.20962465, z: 6.1396346}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5431832996304602852}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1890000211024489493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1890000211024489495}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea56b8c7a755349868431d684f0967fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  note: 'This component connects a UIElements button with an event channel. '
+--- !u!114 &7213219519840283704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1890000211024489495}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cba640c1247a461891b0525dcd851f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Document: {fileID: 5431832996304602853}
+  m_ButtonID: tutorial__back-button
+  m_EventChannel: {fileID: 11400000, guid: 4a93c93d048e84cc78bb0f5a56f643b2, type: 2}
+  m_Delay: 0.5
+--- !u!1 &1934572556877293846
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1934572556877293848}
+  - component: {fileID: 1934572556877293849}
+  - component: {fileID: 1934572556877293851}
+  m_Layer: 5
+  m_Name: SampleRuntimeSetScreen
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1934572556877293848
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1934572556877293846}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1264165861308278869}
+  - {fileID: 7413161731479221134}
+  - {fileID: 7384060421791733810}
+  m_Father: {fileID: 7076620640066690719}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1934572556877293849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1934572556877293846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 19102, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PanelSettings: {fileID: 11400000, guid: f8cb647c893b5418fbf3c52d50f43929, type: 2}
+  m_ParentUI: {fileID: 0}
+  sourceAsset: {fileID: 9197481963319205126, guid: 1f773ebbddece4848bb097fdf1c08f69, type: 3}
+  m_SortingOrder: 501.8
+--- !u!114 &1934572556877293851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1934572556877293846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31b1625fa83c24968af0feb848e1bd62, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Document: {fileID: 1934572556877293849}
+  m_ParentName: tutorial__parent
+  m_HideOnAwake: 1
+  m_IsTransparent: 0
+  m_TutorialScreenData: {fileID: 11400000, guid: 6e4ea9c7ca35e45d5970b536bb758edb, type: 2}
+  m_NextButtonID: tutorial__button-next
+  m_LastButtonID: tutorial__button-last
+  m_TitleID: tutorial__title
+  m_CurrentPageID: tutorial__page-text
+--- !u!1 &2150554951440395938
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2150554951440395937}
+  - component: {fileID: 6216127974294100216}
+  - component: {fileID: 2150554951440395936}
+  - component: {fileID: 7649433396380607805}
+  m_Layer: 0
+  m_Name: RaiseEventButton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2150554951440395937
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2150554951440395938}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2150554953188537210}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6216127974294100216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2150554951440395938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cba640c1247a461891b0525dcd851f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Document: {fileID: 2150554953188537211}
+  m_ButtonID: tutorial__raise-event-button
+  m_EventChannel: {fileID: 11400000, guid: 34e786ccacb8343a29fd6e358bd3524d, type: 2}
+  m_Delay: 0.5
+--- !u!114 &2150554951440395936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2150554951440395938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea56b8c7a755349868431d684f0967fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  note: 'This component connects a UIElements button with an event channel. '
+--- !u!114 &7649433396380607805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2150554951440395938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a50ce2b0e9394210874d92089b7e0cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ObjectToSelect: {fileID: 11400000, guid: 34e786ccacb8343a29fd6e358bd3524d, type: 2}
+  m_Document: {fileID: 2150554953188537211}
+  m_ButtonID: tutorial__raise-event-button
+--- !u!1 &2150554953188537204
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2150554953188537210}
+  - component: {fileID: 2150554953188537211}
+  - component: {fileID: 2150554953188537209}
+  m_Layer: 5
+  m_Name: SampleEventChannelsScreen
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2150554953188537210
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2150554953188537204}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2150554951440395937}
+  - {fileID: 4574708388921030121}
+  m_Father: {fileID: 7076620640066690719}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2150554953188537211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2150554953188537204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 19102, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PanelSettings: {fileID: 11400000, guid: f8cb647c893b5418fbf3c52d50f43929, type: 2}
+  m_ParentUI: {fileID: 0}
+  sourceAsset: {fileID: 9197481963319205126, guid: f17b56edf537d4adbabedb82a74d6574, type: 3}
+  m_SortingOrder: 0
+--- !u!114 &2150554953188537209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2150554953188537204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31b1625fa83c24968af0feb848e1bd62, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Document: {fileID: 2150554953188537211}
+  m_ParentName: tutorial__parent
+  m_HideOnAwake: 1
+  m_IsTransparent: 0
+  m_TutorialScreenData: {fileID: 11400000, guid: 5213a01a9c8b44e828ff52844659386c, type: 2}
+  m_NextButtonID: tutorial__button-next
+  m_LastButtonID: tutorial__button-last
+  m_TitleID: tutorial__title
+  m_CurrentPageID: tutorial__page-text
+--- !u!1 &3002042614111612874
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3002042614111612871}
+  - component: {fileID: 3002042614111612872}
+  - component: {fileID: 3002042614111612873}
+  - component: {fileID: 3002042614111612869}
+  - component: {fileID: 3002042614111612868}
+  - component: {fileID: 1833111754952041673}
+  m_Layer: 0
+  m_Name: PlaySelectScreen
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3002042614111612871
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3002042614111612874}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.049876843, y: -1.0261556, z: 0.010110552}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7868789344170704308}
+  - {fileID: 5228009589162578985}
+  - {fileID: 4294660716354327437}
+  - {fileID: 502369966302536610}
+  m_Father: {fileID: 7076620640066690719}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3002042614111612872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3002042614111612874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 19102, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PanelSettings: {fileID: 11400000, guid: f8cb647c893b5418fbf3c52d50f43929, type: 2}
+  m_ParentUI: {fileID: 0}
+  sourceAsset: {fileID: 9197481963319205126, guid: 78457ec81ff934452be6047767d0944f, type: 3}
+  m_SortingOrder: 0
+--- !u!114 &3002042614111612873
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3002042614111612874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f16d8cbcd9ec4644a82e51b534ac00d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Document: {fileID: 3002042614111612872}
+  m_ParentName: play-mode__parent
+  m_HideOnAwake: 1
+  m_IsTransparent: 0
+--- !u!114 &3002042614111612869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3002042614111612874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88f1dcda3a9794193a789179dfc5e86b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ButtonSceneLoadData:
+    buttonName: play-mode__button-a
+    scenePath: Assets/PaddleBall/Scenes/PaddleBallClassic_Scene.unity
+    sceneLoadChannel: {fileID: 11400000, guid: 920ac8761955945c88b028e7e9aa9c66, type: 2}
+--- !u!114 &3002042614111612868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3002042614111612874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88f1dcda3a9794193a789179dfc5e86b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ButtonSceneLoadData:
+    buttonName: play-mode__button-b
+    scenePath: Assets/PaddleBall/Scenes/PaddleBallHockey_Scene.unity
+    sceneLoadChannel: {fileID: 11400000, guid: 920ac8761955945c88b028e7e9aa9c66, type: 2}
+--- !u!114 &1833111754952041673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3002042614111612874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88f1dcda3a9794193a789179dfc5e86b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ButtonSceneLoadData:
+    buttonName: play-mode__button-c
+    scenePath: Assets/PaddleBall/Scenes/PaddleBallFoosball_Scene.unity
+    sceneLoadChannel: {fileID: 11400000, guid: 920ac8761955945c88b028e7e9aa9c66, type: 2}
+--- !u!1 &3656364320034699581
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4294660716354327437}
+  - component: {fileID: 2268892854385718660}
+  m_Layer: 0
+  m_Name: PlayFoosballButton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4294660716354327437
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3656364320034699581}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3002042614111612871}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2268892854385718660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3656364320034699581}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cba640c1247a461891b0525dcd851f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Document: {fileID: 3002042614111612872}
+  m_ButtonID: play-mode__button-c
+  m_EventChannel: {fileID: 11400000, guid: e0ec326bcb03f4662b5963f7b770f82f, type: 2}
+  m_Delay: 0.5
+--- !u!1 &3731437305910332094
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3731437305910332081}
+  - component: {fileID: 3731437305910332083}
+  - component: {fileID: 3731437305910332080}
+  m_Layer: 0
+  m_Name: PausePopup
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3731437305910332081
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3731437305910332094}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7413161730259538260}
+  - {fileID: 1063580848178169864}
+  m_Father: {fileID: 7076620640066690719}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3731437305910332083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3731437305910332094}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 19102, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PanelSettings: {fileID: 11400000, guid: f8cb647c893b5418fbf3c52d50f43929, type: 2}
+  m_ParentUI: {fileID: 0}
+  sourceAsset: {fileID: 9197481963319205126, guid: 0b631fa0c50dc44a28ff1ae877b405c5, type: 3}
+  m_SortingOrder: 0
+--- !u!114 &3731437305910332080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3731437305910332094}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f16d8cbcd9ec4644a82e51b534ac00d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Document: {fileID: 3731437305910332083}
+  m_ParentName: pause-popup__parent
+  m_HideOnAwake: 1
+  m_IsTransparent: 1
+--- !u!1 &3876105762162471527
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5228009589162578985}
+  - component: {fileID: 1642950885514840015}
+  m_Layer: 0
+  m_Name: PlayHockeyButton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5228009589162578985
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3876105762162471527}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3002042614111612871}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1642950885514840015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3876105762162471527}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cba640c1247a461891b0525dcd851f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Document: {fileID: 3002042614111612872}
+  m_ButtonID: play-mode__button-b
+  m_EventChannel: {fileID: 11400000, guid: e0ec326bcb03f4662b5963f7b770f82f, type: 2}
+  m_Delay: 0.5
+--- !u!1 &4574708388921030120
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4574708388921030121}
+  - component: {fileID: 3505146468571718603}
+  - component: {fileID: 4574708388921030122}
+  m_Layer: 0
+  m_Name: BackButton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4574708388921030121
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4574708388921030120}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2150554953188537210}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3505146468571718603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4574708388921030120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cba640c1247a461891b0525dcd851f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Document: {fileID: 2150554953188537211}
+  m_ButtonID: tutorial__back-button
+  m_EventChannel: {fileID: 11400000, guid: 4a93c93d048e84cc78bb0f5a56f643b2, type: 2}
+  m_Delay: 0.5
+--- !u!114 &4574708388921030122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4574708388921030120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea56b8c7a755349868431d684f0967fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  note: 'This component connects a UIElements button with an event channel. '
+--- !u!1 &4782198431453363623
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4782198431453363622}
+  - component: {fileID: 4782198431453363620}
+  - component: {fileID: 8768901870779065366}
+  m_Layer: 0
+  m_Name: SelectSourcesButton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4782198431453363622
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4782198431453363623}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.784508, y: -0.20962465, z: 6.1396346}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4782198431458543061}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4782198431453363620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4782198431453363623}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea56b8c7a755349868431d684f0967fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  note: 'This component connects a UIElements button with an event channel. '
+--- !u!114 &8768901870779065366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4782198431453363623}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cba640c1247a461891b0525dcd851f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Document: {fileID: 4782198431458543062}
+  m_ButtonID: tutorial__raise-event-button
+  m_EventChannel: {fileID: 11400000, guid: 0bc44668ae0d04bb7becacdf0ea029c5, type: 2}
+  m_Delay: 0.1
+--- !u!1 &4782198431458543064
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4782198431458543061}
+  - component: {fileID: 4782198431458543062}
+  - component: {fileID: 4782198431458543063}
+  m_Layer: 5
+  m_Name: SampleDelegateObjectsScreen
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4782198431458543061
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4782198431458543064}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4782198431453363622}
+  - {fileID: 7413161731235848535}
+  m_Father: {fileID: 7076620640066690719}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4782198431458543062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4782198431458543064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 19102, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PanelSettings: {fileID: 11400000, guid: f8cb647c893b5418fbf3c52d50f43929, type: 2}
+  m_ParentUI: {fileID: 0}
+  sourceAsset: {fileID: 9197481963319205126, guid: d4dc10cbc3b2340b7a22a46d3afdcacd, type: 3}
+  m_SortingOrder: 0
+--- !u!114 &4782198431458543063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4782198431458543064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31b1625fa83c24968af0feb848e1bd62, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Document: {fileID: 4782198431458543062}
+  m_ParentName: tutorial__parent
+  m_HideOnAwake: 0
+  m_IsTransparent: 0
+  m_TutorialScreenData: {fileID: 11400000, guid: 248a46dcbc8794ecd9598e1c8ff0c197, type: 2}
+  m_NextButtonID: tutorial__button-next
+  m_LastButtonID: tutorial__button-last
+  m_TitleID: tutorial__title
+  m_CurrentPageID: tutorial__page-text
+--- !u!1 &5150656514771099766
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5150656514771099767}
+  - component: {fileID: 5150656514771099765}
+  - component: {fileID: 5150656514771099764}
+  m_Layer: 0
+  m_Name: SelectButton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5150656514771099767
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5150656514771099766}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.784508, y: -0.20962465, z: 6.1396346}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5431832996304602852}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5150656514771099765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5150656514771099766}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea56b8c7a755349868431d684f0967fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  note: 'This component connects a UIElements button with an event channel. '
+--- !u!114 &5150656514771099764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5150656514771099766}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a50ce2b0e9394210874d92089b7e0cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ObjectToSelect: {fileID: 11400000, guid: cbdd456b71c05401f8d1e14656ca4c9a, type: 2}
+  m_Document: {fileID: 5431832996304602853}
+  m_ButtonID: tutorial__select-button
+--- !u!1 &5431832995412391416
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5431832995412391419}
+  - component: {fileID: 5431832995412391418}
+  m_Layer: 5
+  m_Name: CreditsScreen
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5431832995412391419
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5431832995412391416}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5431832996304602852}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5431832995412391418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5431832995412391416}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e24e9124dd8d43b5b105810e450f96e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_CreditsData: {fileID: 11400000, guid: cbdd456b71c05401f8d1e14656ca4c9a, type: 2}
+  m_Document: {fileID: 5431832996304602853}
+  m_CreditLineAsset: {fileID: 9197481963319205126, guid: 74b93470eebb047db833c0573eeac30d, type: 3}
+  m_CreditLineClassName: credit-line
+  m_TitleName: credits__title
+  m_SubheadingName: credits__subheading
+  m_BodyName: credits__body
+  m_UpdateEvent: {fileID: 11400000, guid: ce91cbb32c11f4685a35ec176ec98b71, type: 2}
+--- !u!1 &5431832996304602858
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5431832996304602852}
+  - component: {fileID: 5431832996304602853}
+  - component: {fileID: 5431832996304602855}
+  m_Layer: 5
+  m_Name: SampleDataContainersScreen
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5431832996304602852
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5431832996304602858}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.049876843, y: -1.0261556, z: 0.010110552}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5431832995412391419}
+  - {fileID: 5150656514771099767}
+  - {fileID: 5431832996434336575}
+  - {fileID: 1890000211024489494}
+  m_Father: {fileID: 7076620640066690719}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5431832996304602853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5431832996304602858}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 19102, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PanelSettings: {fileID: 11400000, guid: f8cb647c893b5418fbf3c52d50f43929, type: 2}
+  m_ParentUI: {fileID: 0}
+  sourceAsset: {fileID: 9197481963319205126, guid: 20d914f8e6a5c47eaae40ae7a2bf6af8, type: 3}
+  m_SortingOrder: 0
+--- !u!114 &5431832996304602855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5431832996304602858}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31b1625fa83c24968af0feb848e1bd62, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Document: {fileID: 5431832996304602853}
+  m_ParentName: tutorial__parent
+  m_HideOnAwake: 0
+  m_IsTransparent: 0
+  m_TutorialScreenData: {fileID: 11400000, guid: 743decdfae6e34474a90b6347eac548c, type: 2}
+  m_NextButtonID: tutorial__button-next
+  m_LastButtonID: tutorial__button-last
+  m_TitleID: tutorial__title
+  m_CurrentPageID: tutorial__page-text
+--- !u!1 &5431832996434336572
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5431832996434336575}
+  - component: {fileID: 4233986999862640312}
+  m_Layer: 0
+  m_Name: UpdateButton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5431832996434336575
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5431832996434336572}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.784508, y: -0.20962465, z: 6.1396346}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5431832996304602852}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4233986999862640312
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5431832996434336572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cba640c1247a461891b0525dcd851f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Document: {fileID: 5431832996304602853}
+  m_ButtonID: tutorial__update-button
+  m_EventChannel: {fileID: 11400000, guid: ce91cbb32c11f4685a35ec176ec98b71, type: 2}
+  m_Delay: 0.5
+--- !u!1 &5448318849704970315
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5448318849704970316}
+  - component: {fileID: 6034599914939374992}
+  - component: {fileID: 7537354139659255265}
+  m_Layer: 0
+  m_Name: SamplesButton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5448318849704970316
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5448318849704970315}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7076620640492560539}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6034599914939374992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5448318849704970315}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cba640c1247a461891b0525dcd851f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Document: {fileID: 7076620640492560517}
+  m_ButtonID: pong-menu__button-explore
+  m_EventChannel: {fileID: 11400000, guid: 971ef6e0455fa42099622c7ac4b5baaf, type: 2}
+  m_Delay: 0.5
+--- !u!114 &7537354139659255265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5448318849704970315}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea56b8c7a755349868431d684f0967fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  note: The ButtonVoidEventChannelBinder pairs a button name (UXML string ID) with
+    an event channel. It raises the event when the user clicks the UI Button.
+--- !u!1 &5448318850232096320
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5448318850232096321}
+  - component: {fileID: 6034599914393863067}
+  - component: {fileID: 7537354140186928100}
+  m_Layer: 0
+  m_Name: PlayButton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5448318850232096321
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5448318850232096320}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7076620640492560539}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6034599914393863067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5448318850232096320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cba640c1247a461891b0525dcd851f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Document: {fileID: 7076620640492560517}
+  m_ButtonID: pong-menu__button-play
+  m_EventChannel: {fileID: 11400000, guid: 006655e866887431ea2ed7d029195e63, type: 2}
+  m_Delay: 0.5
+--- !u!114 &7537354140186928100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5448318850232096320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea56b8c7a755349868431d684f0967fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  note: The ButtonVoidEventChannelBinder pairs a button name (UXML string ID) with
+    an event channel. It raises the event when the user clicks the UI Button.
+--- !u!1 &6349867029835506869
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6349867029835506870}
+  - component: {fileID: 6349867029835506871}
+  - component: {fileID: 6349867029835506864}
+  - component: {fileID: 3731437306668603044}
+  - component: {fileID: 7108372842431046755}
+  m_Layer: 0
+  m_Name: GameMenuScreen
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6349867029835506870
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6349867029835506869}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7076620640066690719}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6349867029835506871
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6349867029835506869}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 19102, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PanelSettings: {fileID: 11400000, guid: f8cb647c893b5418fbf3c52d50f43929, type: 2}
+  m_ParentUI: {fileID: 0}
+  sourceAsset: {fileID: 9197481963319205126, guid: ad33f3c325ce24d48a89b7c16f8689e1, type: 3}
+  m_SortingOrder: 0
+--- !u!114 &6349867029835506864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6349867029835506869}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f16d8cbcd9ec4644a82e51b534ac00d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Document: {fileID: 6349867029835506871}
+  m_ParentName: game-screen__parent
+  m_HideOnAwake: 1
+  m_IsTransparent: 0
+--- !u!114 &3731437306668603044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6349867029835506869}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cba640c1247a461891b0525dcd851f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Document: {fileID: 6349867029835506871}
+  m_ButtonID: game-screen__pause-button
+  m_EventChannel: {fileID: 11400000, guid: 74a97d39c8b7f44ce8470fa1a82d67a3, type: 2}
+  m_Delay: 0.5
+--- !u!114 &7108372842431046755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6349867029835506869}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f11e1048555d243d5946b47163d5c0a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_State: 1
+  m_Document: {fileID: 6349867029835506871}
+  m_ButtonID: game-screen__pause-button
+  m_EventChannel: {fileID: 11400000, guid: 4841e647b507d4df6aa683ca800db635, type: 2}
+  m_Delay: 0.5
+--- !u!1 &7043860614939032606
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7043860614939032605}
+  - component: {fileID: 7043860614939032604}
+  m_Layer: 0
+  m_Name: DelegateObjectsButton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7043860614939032605
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7043860614939032606}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4671567882473071835}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7043860614939032604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7043860614939032606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cba640c1247a461891b0525dcd851f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Document: {fileID: 9190579699162760594}
+  m_ButtonID: sample-select__button-e
+  m_EventChannel: {fileID: 11400000, guid: 7ff7bf73e45f54786988b31224388a93, type: 2}
+  m_Delay: 0.5
+--- !u!1 &7076620640066690713
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7076620640066690719}
+  - component: {fileID: 7076620640066690718}
+  - component: {fileID: 24786203610242334}
+  - component: {fileID: 7076620640066690716}
+  m_Layer: 0
+  m_Name: PaddleBallScreens
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7076620640066690719
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7076620640066690713}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.049876843, y: 1.0261556, z: -0.010110552}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7076620640492560539}
+  - {fileID: 3002042614111612871}
+  - {fileID: 6349867029835506870}
+  - {fileID: 3731437305910332081}
+  - {fileID: 4671567882473071835}
+  - {fileID: 5431832996304602852}
+  - {fileID: 4782198431458543061}
+  - {fileID: 1264165861975471502}
+  - {fileID: 2150554953188537210}
+  - {fileID: 1934572556877293848}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7076620640066690718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7076620640066690713}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d050f5877cea64fadb077a0083dfebed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HomeScreen: {fileID: 7076620640492560537}
+  m_ScreenGoBack: {fileID: 11400000, guid: 4a93c93d048e84cc78bb0f5a56f643b2, type: 2}
+  m_AllScreensHidden: {fileID: 11400000, guid: 726b61263181e48fda88dff219d4737f, type: 2}
+  m_HomeScreenShown: {fileID: 11400000, guid: 7eafb2993b20542018f125cd55c9cc11, type: 2}
+  m_DisplayViewOnEvent:
+  - eventChannel: {fileID: 11400000, guid: 006655e866887431ea2ed7d029195e63, type: 2}
+    viewToDisplay: {fileID: 3002042614111612873}
+  - eventChannel: {fileID: 11400000, guid: 971ef6e0455fa42099622c7ac4b5baaf, type: 2}
+    viewToDisplay: {fileID: 991675788141676095}
+  - eventChannel: {fileID: 11400000, guid: cae45afb022564168a26440b0c4cccea, type: 2}
+    viewToDisplay: {fileID: 2150554953188537209}
+  - eventChannel: {fileID: 11400000, guid: e0ec326bcb03f4662b5963f7b770f82f, type: 2}
+    viewToDisplay: {fileID: 6349867029835506864}
+  - eventChannel: {fileID: 11400000, guid: 74a97d39c8b7f44ce8470fa1a82d67a3, type: 2}
+    viewToDisplay: {fileID: 3731437305910332080}
+  - eventChannel: {fileID: 11400000, guid: 6e070e9bdd5484082b6c542eae8ec148, type: 2}
+    viewToDisplay: {fileID: 1934572556877293851}
+  - eventChannel: {fileID: 11400000, guid: 88518532d61324aa9a9adf1d85898a2f, type: 2}
+    viewToDisplay: {fileID: 5431832996304602855}
+  - eventChannel: {fileID: 11400000, guid: d3e4c1b7d67914e09b583a17a8dfa78a, type: 2}
+    viewToDisplay: {fileID: 1264165861975471501}
+  - eventChannel: {fileID: 11400000, guid: 7ff7bf73e45f54786988b31224388a93, type: 2}
+    viewToDisplay: {fileID: 4782198431458543063}
+--- !u!114 &24786203610242334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7076620640066690713}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 889eb338f1f3e48289bf1e74b9d19684, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &7076620640066690716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7076620640066690713}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea56b8c7a755349868431d684f0967fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  note: 'The UI Manager manages the UI screens (View base class) using an event channel
+    paired with each View. A stack maintains a history of previously shown screens,
+    so the UI Manager can "go back" until it reaches the default UI screen, the home
+    screen.
+
+
+    To add a View to the UIManager, pair it with event channel in the
+    DisplayViewOnEvent List. '
+--- !u!1 &7076620640492560516
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7076620640492560539}
+  - component: {fileID: 7076620640492560517}
+  - component: {fileID: 7076620640492560537}
+  - component: {fileID: 7076620640492560536}
+  m_Layer: 0
+  m_Name: MainMenu
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7076620640492560539
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7076620640492560516}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.049876843, y: -1.0261556, z: 0.010110552}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5448318850232096321}
+  - {fileID: 5448318849704970316}
+  - {fileID: 459756764800264900}
+  m_Father: {fileID: 7076620640066690719}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7076620640492560517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7076620640492560516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 19102, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PanelSettings: {fileID: 11400000, guid: f8cb647c893b5418fbf3c52d50f43929, type: 2}
+  m_ParentUI: {fileID: 0}
+  sourceAsset: {fileID: 9197481963319205126, guid: 23b7a4d72c059469e9320b1e66bb3cba, type: 3}
+  m_SortingOrder: 999
+--- !u!114 &7076620640492560537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7076620640492560516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f16d8cbcd9ec4644a82e51b534ac00d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Document: {fileID: 7076620640492560517}
+  m_ParentName: pong-menu__parent
+  m_HideOnAwake: 0
+  m_IsTransparent: 0
+--- !u!114 &7076620640492560536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7076620640492560516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea56b8c7a755349868431d684f0967fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  note: 'This Modal Screen serves as the main menu for the UI. '
+--- !u!1 &7150160855485374790
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7150160855485374791}
+  - component: {fileID: 7150160855485374788}
+  m_Layer: 0
+  m_Name: DataContainerButton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7150160855485374791
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7150160855485374790}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4671567882473071835}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7150160855485374788
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7150160855485374790}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cba640c1247a461891b0525dcd851f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Document: {fileID: 9190579699162760594}
+  m_ButtonID: sample-select__button-a
+  m_EventChannel: {fileID: 11400000, guid: 88518532d61324aa9a9adf1d85898a2f, type: 2}
+  m_Delay: 0.5
+--- !u!1 &7150160855939333365
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7150160855939333354}
+  - component: {fileID: 7150160855939333355}
+  - component: {fileID: 6165125211457928017}
+  m_Layer: 0
+  m_Name: EventChannelsButton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7150160855939333354
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7150160855939333365}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4671567882473071835}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7150160855939333355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7150160855939333365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cba640c1247a461891b0525dcd851f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Document: {fileID: 9190579699162760594}
+  m_ButtonID: sample-select__button-b
+  m_EventChannel: {fileID: 11400000, guid: cae45afb022564168a26440b0c4cccea, type: 2}
+  m_Delay: 0.5
+--- !u!114 &6165125211457928017
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7150160855939333365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea56b8c7a755349868431d684f0967fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  note: 'This component connects a UIElements button with an event channel. '
+--- !u!1 &7150160856637546094
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7150160856637546095}
+  - component: {fileID: 7150160856637546092}
+  m_Layer: 0
+  m_Name: RuntimeSetsButton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7150160856637546095
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7150160856637546094}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4671567882473071835}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7150160856637546092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7150160856637546094}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cba640c1247a461891b0525dcd851f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Document: {fileID: 9190579699162760594}
+  m_ButtonID: sample-select__button-c
+  m_EventChannel: {fileID: 11400000, guid: 6e070e9bdd5484082b6c542eae8ec148, type: 2}
+  m_Delay: 0.5
+--- !u!1 &7384060421791733811
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7384060421791733810}
+  - component: {fileID: 7384060421791733809}
+  - component: {fileID: 7384060421791733815}
+  m_Layer: 0
+  m_Name: BackButton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7384060421791733810
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7384060421791733811}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.784508, y: -0.20962465, z: 6.1396346}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1934572556877293848}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7384060421791733809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7384060421791733811}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea56b8c7a755349868431d684f0967fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  note: 'This component connects a UIElements button with an event channel. '
+--- !u!114 &7384060421791733815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7384060421791733811}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cba640c1247a461891b0525dcd851f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Document: {fileID: 1934572556877293849}
+  m_ButtonID: tutorial__back-button
+  m_EventChannel: {fileID: 11400000, guid: 4a93c93d048e84cc78bb0f5a56f643b2, type: 2}
+  m_Delay: 0
+--- !u!1 &7413161730259538261
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7413161730259538260}
+  - component: {fileID: 7413161730019479380}
+  - component: {fileID: 2712495260737432580}
+  m_Layer: 0
+  m_Name: QuitButton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7413161730259538260
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7413161730259538261}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3731437305910332081}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7413161730019479380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7413161730259538261}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cba640c1247a461891b0525dcd851f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Document: {fileID: 3731437305910332083}
+  m_ButtonID: pause-popup__quit-button
+  m_EventChannel: {fileID: 11400000, guid: 27c3ffba1d22f4aa78edeb8ad1357100, type: 2}
+  m_Delay: 1
+--- !u!114 &2712495260737432580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7413161730259538261}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f11e1048555d243d5946b47163d5c0a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_State: 0
+  m_Document: {fileID: 3731437305910332083}
+  m_ButtonID: pause-popup__quit-button
+  m_EventChannel: {fileID: 11400000, guid: 4841e647b507d4df6aa683ca800db635, type: 2}
+  m_Delay: 1
+--- !u!1 &7413161731235848528
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7413161731235848535}
+  - component: {fileID: 7413161731235848533}
+  - component: {fileID: 7621837708055338563}
+  m_Layer: 0
+  m_Name: BackButton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7413161731235848535
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7413161731235848528}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.784508, y: -0.20962465, z: 6.1396346}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4782198431458543061}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7413161731235848533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7413161731235848528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea56b8c7a755349868431d684f0967fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  note: 'This component connects a UIElements button with an event channel. '
+--- !u!114 &7621837708055338563
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7413161731235848528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cba640c1247a461891b0525dcd851f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Document: {fileID: 4782198431458543062}
+  m_ButtonID: tutorial__back-button
+  m_EventChannel: {fileID: 11400000, guid: 4a93c93d048e84cc78bb0f5a56f643b2, type: 2}
+  m_Delay: 0.5
+--- !u!1 &7413161731479221135
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7413161731479221134}
+  - component: {fileID: 7413161731479221132}
+  - component: {fileID: 7413161731479221133}
+  m_Layer: 0
+  m_Name: SelectButton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7413161731479221134
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7413161731479221135}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.784508, y: -0.20962465, z: 6.1396346}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1934572556877293848}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7413161731479221132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7413161731479221135}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea56b8c7a755349868431d684f0967fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  note: 'This component connects a UIElements button with an event channel. '
+--- !u!114 &7413161731479221133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7413161731479221135}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a50ce2b0e9394210874d92089b7e0cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ObjectToSelect: {fileID: 11400000, guid: cf310e05e84a44a57a14d58cf0ea0c3d, type: 2}
+  m_Document: {fileID: 1934572556877293849}
+  m_ButtonID: tutorial__select-button
+--- !u!1 &8523783874613174142
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8523783874613174143}
+  - component: {fileID: 8523783874613174140}
+  - component: {fileID: 1093239952526384134}
+  m_Layer: 0
+  m_Name: BackButton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8523783874613174143
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8523783874613174142}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.784508, y: -0.20962465, z: 6.1396346}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1264165861975471502}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8523783874613174140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8523783874613174142}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea56b8c7a755349868431d684f0967fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  note: 'This component connects a UIElements button with an event channel. '
+--- !u!114 &1093239952526384134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8523783874613174142}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cba640c1247a461891b0525dcd851f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Document: {fileID: 1264165861975471503}
+  m_ButtonID: tutorial__back-button
+  m_EventChannel: {fileID: 11400000, guid: 4a93c93d048e84cc78bb0f5a56f643b2, type: 2}
+  m_Delay: 0

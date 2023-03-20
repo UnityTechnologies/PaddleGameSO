@@ -1,0 +1,146 @@
+{
+    "name": "PaddleBallControls",
+    "maps": [
+        {
+            "name": "Gameplay",
+            "id": "c766b44f-dae2-4308-a2f0-d8a624c0d297",
+            "actions": [
+                {
+                    "name": "MoveP1",
+                    "type": "Value",
+                    "id": "7604435b-8f8d-4c39-b175-51939511c710",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "MoveP2",
+                    "type": "Button",
+                    "id": "29aa5953-9ad2-44ce-a1c4-90a593651bf5",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "RestartGame",
+                    "type": "Button",
+                    "id": "5aa0bf33-b1ab-4b22-bd5a-7dc70c5aded4",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "1D Axis",
+                    "id": "0ce829f1-34bf-4a3b-9581-4cde64bb3b0c",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MoveP1",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "5571c995-306c-4d2c-bc6a-035c3cea1c4f",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MoveP1",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "7cf182a4-a7af-4853-954b-c0d0fd68f547",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MoveP1",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "04d64739-80c0-438f-b54e-ffa28a76dfe8",
+                    "path": "<Keyboard>/r",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RestartGame",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "1D Axis",
+                    "id": "9fece933-c468-4bf5-a739-2d910b9fcb73",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MoveP2",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "95bf8964-cf52-47f6-94d3-a6692e1d9b96",
+                    "path": "<Keyboard>/downArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MoveP2",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "a88751c4-a0ab-4ac9-afbc-22c4cc24b564",
+                    "path": "<Keyboard>/upArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MoveP2",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        },
+        {
+            "name": "Menus",
+            "id": "731fc819-2cab-4764-b055-a91dde47db9e",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "47db57ae-2a2c-4d9f-90aa-5bfea632770f",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "ee268fda-430d-41ed-8e2f-a6c8da80fc10",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

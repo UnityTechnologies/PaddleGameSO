@@ -1,0 +1,14 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/PaddleBall/UI/Uss/PaddleBallScreens.uss?fileID=7433441132597879392&amp;guid=5f1fa7b4fc1384e90a776788b57e71c1&amp;type=3#PaddleBallScreens" />
+    <ui:VisualElement name="pong-menu__parent" style="width: 100%; height: 100%; position: absolute; background-color: rgb(82, 82, 82); align-items: flex-end; top: 0; left: 0;">
+        <ui:VisualElement name="pong-menu__background-image" style="position: absolute; width: 141%; height: 169%; background-image: url(&apos;project://database/Assets/PaddleBall/Textures/Backgrounds/BackgroundSlate.png?fileID=21300000&amp;guid=fede72989d0965842a8e015db57f83d7&amp;type=3#BackgroundSlate&apos;); -unity-background-scale-mode: scale-to-fit; top: -40%; right: 0; left: -179px;" />
+        <ui:Label text="PADDLE BALL" display-tooltip-when-elided="true" name="pong-menu__title" picking-mode="Ignore" class="title-text" style="text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.32);">
+            <ui:Label text="ScriptableObjects" display-tooltip-when-elided="true" name="pong-menu__subheading" picking-mode="Ignore" class="subheading-text" style="text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.55);" />
+        </ui:Label>
+        <ui:VisualElement name="pong-menu__buttons" style="flex-basis: 60%; width: 35%; padding-bottom: 0; height: 56%; position: absolute; padding-left: 0; padding-right: 0; padding-top: 0; align-items: flex-end; -unity-text-align: middle-left; justify-content: flex-start; top: 48%; bottom: 0; right: 4%;">
+            <ui:Button text="PLAY" display-tooltip-when-elided="true" name="pong-menu__button-play" class="menu-button" style="font-size: 100px; height: 23%; -unity-font-definition: url(&apos;project://database/Assets/_ThirdParty/Fonts/Inter/Inter-Bold/Inter-Bold%20SDF_FontAsset.asset?fileID=11400000&amp;guid=95b70fa7ea03d427e8c7511cab180b86&amp;type=2#Inter-Bold SDF_FontAsset&apos;);" />
+            <ui:Button text="PATTERNS" display-tooltip-when-elided="true" name="pong-menu__button-explore" class="menu-button" style="font-size: 75px;" />
+            <ui:Button text="QUIT" display-tooltip-when-elided="true" name="pong-menu__button-quit" class="menu-button" style="font-size: 75px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

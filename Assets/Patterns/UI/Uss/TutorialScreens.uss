@@ -1,0 +1,334 @@
+.menu-button {
+    width: 70%;
+    height: 15%;
+    background-color: rgba(255, 255, 255, 0);
+    -unity-font-definition: url('project://database/Assets/GameSystems/_ThirdParty/Fonts/Roboto/Roboto-Black%20SDF_FontAsset.asset?fileID=11400000&guid=e74ebc05ab3564fb187648ced4e2c0fa&type=2#Roboto-Black SDF_FontAsset');
+    font-size: 90px;
+    color: rgb(255, 255, 255);
+    -unity-text-align: lower-center;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+.menu-button:hover {
+    scale: 1.1 1.1;
+    transition-duration: 0.15s;
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    -unity-text-align: lower-center;
+}
+
+.menu-button:active {
+    color: rgb(255, 156, 0);
+    -unity-text-align: lower-center;
+    transition-duration: 0.15s;
+}
+
+.menu-button:focus {
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    background-color: rgba(209, 209, 209, 0);
+    -unity-text-align: lower-center;
+    transition-duration: 0.15s;
+}
+
+.back-button {
+    position: absolute;
+    right: -3%;
+    bottom: 1%;
+    width: 20%;
+    height: 12%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    -unity-font-definition: url('project://database/Assets/GameSystems/_ThirdParty/Fonts/Roboto/Roboto-Black%20SDF_FontAsset.asset?fileID=11400000&guid=e74ebc05ab3564fb187648ced4e2c0fa&type=2#Roboto-Black SDF_FontAsset');
+    font-size: 78px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(188, 188, 188, 0);
+    transition-duration: 0.15s;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+}
+
+.back-button:hover {
+    scale: 1.1 1.1;
+    transition-duration: 0.15s;
+}
+
+.back-button:active {
+    transition-duration: 0.15s;
+    -unity-background-image-tint-color: rgb(253, 163, 11);
+    color: rgb(255, 130, 1);
+}
+
+.back-button:focus {
+    -unity-background-image-tint-color: rgb(245, 160, 27);
+}
+
+.grid-button {
+    flex-basis: 30%;
+    justify-content: flex-end;
+    top: 0;
+    margin-left: 1%;
+    margin-right: 1%;
+    height: 100%;
+    width: 112%;
+}
+
+.grid-button:hover {
+    -unity-background-image-tint-color: rgb(255, 166, 0);
+    background-color: rgb(255, 166, 0);
+}
+
+#unity-dragger {
+    background-image: url('project://database/Assets/GameSystems/_ThirdParty/Images/circle.png?fileID=21300000&guid=e0cf8806d35d64013ba4e5d0e6b11fba&type=3#circle');
+    width: 50px;
+    height: 50px;
+    -unity-background-scale-mode: scale-to-fit;
+    background-color: rgba(0, 0, 0, 0);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    top: 38%;
+}
+
+#unity-tracker {
+    top: 44%;
+    margin-left: 2%;
+    scale: 0.95 1;
+}
+
+.tab-button {
+    flex-grow: 1;
+    flex-basis: 5%;
+    margin-left: 0;
+    margin-right: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 80%;
+    width: 100%;
+    -unity-font-definition: url('project://database/Assets/GameSystems/_ThirdParty/Fonts/Roboto/Roboto-Black%20SDF_FontAsset.asset?fileID=11400000&guid=e74ebc05ab3564fb187648ced4e2c0fa&type=2#Roboto-Black SDF_FontAsset');
+    font-size: 39px;
+    color: rgb(173, 173, 173);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    background-color: rgb(81, 90, 111);
+    display: flex;
+    transition-duration: 0.15s;
+}
+
+.tab-button-active {
+    flex-grow: 1;
+    flex-basis: 5%;
+    margin-left: 0;
+    margin-right: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 80%;
+    width: 100%;
+    -unity-font-definition: url('project://database/Assets/GameSystems/_ThirdParty/Fonts/Roboto/Roboto-Black%20SDF_FontAsset.asset?fileID=11400000&guid=e74ebc05ab3564fb187648ced4e2c0fa&type=2#Roboto-Black SDF_FontAsset');
+    font-size: 39px;
+    color: rgb(60, 60, 60);
+    background-color: rgb(183, 183, 183);
+    display: flex;
+    transition-duration: 0.15s;
+    transform-origin: bottom;
+    scale: 1 1;
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+}
+
+.tab-content-active {
+    flex-basis: 100%;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(188, 188, 188);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    display: flex;
+}
+
+.tab-content-inactive {
+    display: none;
+}
+
+.volume-slider {
+    -unity-font-definition: url('project://database/Assets/GameSystems/_ThirdParty/Fonts/Roboto/Roboto-Black%20SDF_FontAsset.asset?fileID=11400000&guid=e74ebc05ab3564fb187648ced4e2c0fa&type=2#Roboto-Black SDF_FontAsset');
+    color: rgb(255, 255, 255);
+    font-size: 71px;
+    -unity-text-align: middle-left;
+    word-spacing: -20px;
+    -unity-paragraph-spacing: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 2%;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    flex-basis: 20%;
+    flex-grow: 0;
+    min-height: auto;
+}
+
+.credit-line {
+    width: 100%;
+    flex-basis: 12%;
+}
+
+.body-text {
+    flex-basis: 90%;
+    flex-grow: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    -unity-font-definition: url('project://database/Assets/GameSystems/_ThirdParty/Fonts/Roboto/Roboto-Medium%20SDF_FontAsset.asset?fileID=11400000&guid=db5974fdd47364381a7edc91a9df9b2f&type=2#Roboto-Medium SDF_FontAsset');
+    font-size: 38px;
+    -unity-text-align: upper-center;
+    flex-wrap: wrap;
+    white-space: normal;
+    color: rgb(255, 255, 255);
+    transition-duration: 1s;
+}
+
+.body-text-left {
+    flex-basis: 90%;
+    flex-grow: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    -unity-font-definition: url('project://database/Assets/GameSystems/_ThirdParty/Fonts/Roboto/Roboto-Medium%20SDF_FontAsset.asset?fileID=11400000&guid=db5974fdd47364381a7edc91a9df9b2f&type=2#Roboto-Medium SDF_FontAsset');
+    font-size: 38px;
+    -unity-text-align: upper-center;
+    flex-wrap: wrap;
+    white-space: normal;
+    color: rgba(255, 255, 255, 0);
+    transition-duration: 1s;
+    translate: 100% 0;
+}
+
+.body-text-right {
+    flex-basis: 90%;
+    flex-grow: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    -unity-font-definition: url('project://database/Assets/GameSystems/_ThirdParty/Fonts/Roboto/Roboto-Medium%20SDF_FontAsset.asset?fileID=11400000&guid=db5974fdd47364381a7edc91a9df9b2f&type=2#Roboto-Medium SDF_FontAsset');
+    font-size: 38px;
+    -unity-text-align: upper-center;
+    flex-wrap: wrap;
+    white-space: normal;
+    color: rgba(255, 255, 255, 0);
+    transition-duration: 1s;
+    translate: 0 100%;
+}
+
+.button-nextlast {
+    flex-basis: 10%;
+    font-size: 101px;
+    -unity-font-definition: url('project://database/Assets/GameSystems/_ThirdParty/Fonts/Roboto/Roboto-Medium%20SDF_FontAsset.asset?fileID=11400000&guid=db5974fdd47364381a7edc91a9df9b2f&type=2#Roboto-Medium SDF_FontAsset');
+    background-color: rgba(188, 188, 188, 0);
+    background-image: url('project://database/Assets/GameSystems/Demos/PaddleBall/Textures/Icons/Next_Icon.png?fileID=21300000&guid=140f2f7729c4f4e2185c86b4a582f120&type=3#Next_Icon');
+    -unity-background-scale-mode: scale-to-fit;
+    rotate: 180deg;
+    border-left-color: rgba(149, 149, 149, 0);
+    border-right-color: rgba(149, 149, 149, 0);
+    border-top-color: rgba(149, 149, 149, 0);
+    border-bottom-color: rgba(149, 149, 149, 0);
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+}
+
+.button-nextlast:hover {
+    transition-duration: 0.1s;
+    scale: 1.1 1.1;
+}
+
+.button-nextlast:active {
+    -unity-background-image-tint-color: rgb(255, 156, 0);
+}
+
+.tutorial-button {
+    position: absolute;
+    left: 25%;
+    width: 50%;
+    height: 61%;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-top-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+    border-left-width: 5px;
+    border-right-width: 5px;
+    border-top-width: 5px;
+    border-bottom-width: 5px;
+    background-color: rgba(188, 188, 188, 0);
+    -unity-font-definition: url('project://database/Assets/GameSystems/_ThirdParty/Fonts/Roboto/Roboto-Black%20SDF_FontAsset.asset?fileID=11400000&guid=e74ebc05ab3564fb187648ced4e2c0fa&type=2#Roboto-Black SDF_FontAsset');
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    top: 19%;
+}
+
+.tutorial-button:hover {
+    transition-duration: 0.1s;
+    scale: 1.1 1.1;
+}
+
+.tutorial-button:active {
+    transition-duration: 0.1s;
+    -unity-background-image-tint-color: rgb(255, 156, 0);
+    background-color: rgba(255, 156, 0, 0.24);
+    color: rgb(255, 156, 0);
+    border-left-color: rgb(255, 156, 0);
+    border-right-color: rgb(255, 156, 0);
+    border-top-color: rgb(255, 156, 0);
+    border-bottom-color: rgb(255, 156, 0);
+}

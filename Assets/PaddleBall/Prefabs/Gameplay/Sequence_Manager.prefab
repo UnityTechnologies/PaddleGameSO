@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3315790558184897152
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3315790558184897153}
+  - component: {fileID: 3315790558184897166}
+  - component: {fileID: 674916659}
+  - component: {fileID: 674916658}
+  m_Layer: 0
+  m_Name: Sequence_Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3315790558184897153
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3315790558184897152}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.049876843, y: 1.0261556, z: -0.010110552}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3315790558184897166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3315790558184897152}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 418090a9f3d9a43c69308faf4f65d6c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PreloadedAssets:
+  - {fileID: 7076620640066690713, guid: 2c5eccc36a1cc45619b5b3a3cc6549f2, type: 3}
+  - {fileID: 4951733042490781124, guid: b4068cbd94b0f40e185ed1319c9f488c, type: 3}
+  - {fileID: 1098917023842230458, guid: 53e85c0df796a4941a10f5976d101a58, type: 3}
+  - {fileID: 7663667618737948714, guid: af80941434ad44a6684ce10279170396, type: 3}
+  m_PreloadDelay: 2
+  m_LoadProgressUpdated: {fileID: 11400000, guid: e0971239fa41e43229e2c36d56d1d493, type: 2}
+  m_PreloadComplete: {fileID: 11400000, guid: b825e350136cf4d27b1c324f2864d620, type: 2}
+  m_ApplicationQuit: {fileID: 11400000, guid: 9b1ac1be450af43b7bf2352bc6cfe090, type: 2}
+--- !u!114 &674916659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3315790558184897152}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 889eb338f1f3e48289bf1e74b9d19684, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &674916658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3315790558184897152}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea56b8c7a755349868431d684f0967fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  note: This controls the flow of the application's sequences, or game states. This
+    is the only object in the Bootloader sequence. All of GameObjects stem from loading
+    Prefabs or other scenes.

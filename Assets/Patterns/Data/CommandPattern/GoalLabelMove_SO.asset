@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbb1c72e8c37a44698372525f765c1da, type: 3}
+  m_Name: GoalLabelMove_SO
+  m_EditorClassIdentifier: 
+  m_StartPosition: {x: 0.4, y: 10, z: 0}
+  m_EndPosition: {x: 0.4, y: -2, z: 0}
+  m_MoveSpeed: 20
+  m_CommandExecuted: {fileID: 0}
+  m_CommandUndone: {fileID: 11400000, guid: c167ff09e57c84f6e9b7fd34e0591efc, type: 2}

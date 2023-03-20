@@ -1,0 +1,15 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+#ROOTNAMESPACEBEGIN#
+namespace GameSystemsCookbook
+{
+    public class #SCRIPTNAME# : MonoBehaviour
+    {
+
+  
+
+    }
+}
+#ROOTNAMESPACEEND#

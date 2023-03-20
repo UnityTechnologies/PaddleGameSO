@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d1e25aba3ebf449e81984e8ddbcf962, type: 3}
+  m_Name: Credits_Data
+  m_EditorClassIdentifier: 
+  m_Description: ScriptableObjects often hold data that does not need to change at
+    runtime. Add to the credits list to modify the Credits Screen.
+  m_Title: Example Title
+  m_SubHeading: Modify this subheading
+  m_Credits:
+  - Name: Marcus Aurelius
+    Role: Lead developer
+  - Name: Calpurnia Flavia
+    Role: Developer
+  - Name: Valerius Maximus
+    Role: Lead artist
+  - Name: Agrippina the Younger
+    Role: Artist
+  - Name: Agrippina the Elder
+    Role: Technical artist

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd765a6c85ef7416aadd45732ac91cdd, type: 3}
+  m_Name: ScoreObjective_SO
+  m_EditorClassIdentifier: 
+  m_Description: 'The objective is complete once a player reaches the Target Score.
+    Then, this broadcasts over the ScoreTargetReached event channel. '
+  m_Title: Score Objective.
+  m_ObjectiveCompleted: {fileID: 11400000, guid: 1b033c515125d4c4f85d681a4f1b928d, type: 2}
+  m_TargetScore: 5
+  m_TargetScoreReached: {fileID: 11400000, guid: b0ed841dfa59244aeb1350c172aedd61, type: 2}
+  m_ScoreManagerUpdated: {fileID: 11400000, guid: 47788c9bb3b534a00b0fbe34ef80f403, type: 2}

@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a25f2b2fd768466f9c42da6b7d57e63, type: 3}
+  m_Name: BlockRuntimeSet_Data
+  m_EditorClassIdentifier: 
+  m_Description: "This Runtime Set tracks a list of Blocks instantiated in the Scene.
+    \n\nA custom Editor shows the GameObjects in the Items list."
+  m_RuntimeSetUpdated: {fileID: 11400000, guid: bf069b2db953e433ab2c24a643a84c83, type: 2}

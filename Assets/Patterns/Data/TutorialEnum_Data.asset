@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1841b7fe398674bcda282482872188a9, type: 3}
+  m_Name: TutorialEnum_Data
+  m_EditorClassIdentifier: 
+  m_Description: Content data for the Enums sample.
+  m_Title: Enums
+  m_BodyText:
+  - 'ScriptableObjects can be useful, even when they don''t contain any data. Consider
+    using them as an <b>enums</b> for comparison operations.
+
+
+    In this example,
+    the blocks contain a <b>TeamID</b> component that identifies with a specific
+    ScriptableObject.
+
+
+    The ball also has a <b>TeamID</b>. It only destroys blocks
+    of the same "team."'
+  - "The <b>Switch Enum</b> button changes the ball's team. Even the simple act of
+    swapping a ScriptableObject can alter gameplay.\n\nHere a MonoBehaviour on the
+    <b>DemoBall</b> updates the <b>SpriteRenderer</b> when switching teams. \n\nThe
+    PaddleBall demo uses a similar method to determine which paddle belongs to player
+    1 or player 2."
+  m_Prefabs:
+  - {fileID: 8603309885610888686, guid: ef4396504d8714861af3cc6ebc97ca28, type: 3}

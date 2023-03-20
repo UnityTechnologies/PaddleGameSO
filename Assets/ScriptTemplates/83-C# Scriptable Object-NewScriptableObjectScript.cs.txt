@@ -1,0 +1,15 @@
+using UnityEngine;
+using System.Collections;
+using System.Collections.Generic;
+
+
+#ROOTNAMESPACEBEGIN#
+namespace GameSystemsCookbook
+{
+	[CreateAssetMenu(fileName = "#SCRIPTNAME#", menuName = "GameSystems/#SCRIPTNAME#")]
+	public class #SCRIPTNAME# : DescriptionSO
+	{
+	 
+	}
+}
+#ROOTNAMESPACEEND#
