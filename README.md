@@ -1,5 +1,6 @@
 # Welcome to the ScriptableObjects Paddle Ball project
-This demo project showcases design patterns and game architecture using ScriptableObjects. It’s intended to be explored together with the e-book, *Create modular game architecture in Unity with ScriptableObjects*. 
+This demo project showcases design patterns and game architecture using ScriptableObjects. It’s intended to be explored together with the e-book, [*Create modular game architecture in Unity with ScriptableObjects*](https://resources.unity.com/games/create-modular-game-architecture-with-scriptable-objects-ebook?ungated=true).
+![Header-600x300 (1)](https://user-images.githubusercontent.com/104561943/233562295-a1268fc7-1209-4390-9832-10fcd92a9dc1.png)
 
 The demo provides examples of how ScriptableObjects can help you create components that are testable and scalable, while still being designer-friendly. Although such a game could be built with far fewer lines of code, the purpose here is to show ScriptableObjects in action in a popular game design. 
 
